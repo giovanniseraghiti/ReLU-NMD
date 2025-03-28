@@ -1,5 +1,4 @@
 # ReLU_NMD
- markdown
  ReLU-NMD is a relatively new nonlinear matrix decomposition (NMD) model, where, given a sparse non-negative matrix $X$, the goal is to find a low-rank approximation $\Theta$ such that $\max(0,\Theta) \approx X$. ReLU-NMD finds application in entry-dependent matrix completion [^1], compression of sparse data[^2], and manifold learning[^3]. This repository contains state-of-the-art algorithms for solving ReLU-NMD. Specifically, the novel extrapolated block coordinate descent (eBCD-NMD), which is a provably convergent and accelerated method to tackle ReLU-NMD. 
  ReLU-NMD is a relatively new nonlinear matrix decomposition (NMD) model, where, given a sparse non-negative matrix $X$, the goal is to find a low-rank approximation $\Theta$ such that $\max(0,\Theta) \approx X$. ReLU-NMD finds application in entry-dependent matrix completion[1], compression of sparse data[2], and manifold learning[3]. This repository contains state-of-the-art algorithms for solving ReLU-NMD. Specifically, the novel extrapolated block coordinate descent (eBCD-NMD), which is a provably convergent and accelerated method to tackle ReLU-NMD. 
  
