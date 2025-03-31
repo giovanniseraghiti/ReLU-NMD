@@ -9,12 +9,12 @@ or the Three-block-ReLU-NMD (3B-ReLU-NMD) formulation:
          
 ReLU decomposition finds application in entry-dependent matrix completion [^1], in the recovery of Euclidean distance matrices, in the compression of sparse data[^2], and in manifold learning[^3]. This repository contains state-of-the-art algorithms for computing ReLU decompositions and examples of test problems.
 Description of the algorithms:
- 1.Naive-NMD: alternate optimization scheme that computes at each iteration one global optima of the subproblem for $Z$ and $\Theta$ in the Latent-ReLU-NMD formulation[3],
- 2.Aggressive-NMD (A_NMD): adaptively extrapolated version of the Naive-NMD scheme[2],
- 3.Expectation-minimization NMD (EM-NMD): expectation-minimization framework applied to the Latent-ReLU-NMD problem[3],
- 4.Block coordinate descent NMD (BCD-NMD): block coordinate descent algorithm which computes one global optima for each subproblem of the 3B-ReLU-NMD formulation[2],
- 5.Extrapolade BCD-NMD (eBCD-NMD): extrapolated and provably convergent variant of the BCD-NMD[].
- 6.Three block NMD (3B-NMD): heuristic extrapolation technique applied to the BCD-NMD scheme[2].
+ 1. Naive-NMD: alternate optimization scheme that computes at each iteration one global optima of the subproblem for $Z$ and $\Theta$ in the Latent-ReLU-NMD formulation[3],
+ 2. Aggressive-NMD (A_NMD): adaptively extrapolated version of the Naive-NMD scheme[2],
+ 3. Expectation-minimization NMD (EM-NMD): expectation-minimization framework applied to the Latent-ReLU-NMD problem[3],
+ 4. Block coordinate descent NMD (BCD-NMD): block coordinate descent algorithm which computes one global optima for each subproblem of the 3B-ReLU-NMD formulation[2],
+ 5. Extrapolade BCD-NMD (eBCD-NMD): extrapolated and provably convergent variant of the BCD-NMD[].
+ 6. Three block NMD (3B-NMD): heuristic extrapolation technique applied to the BCD-NMD scheme[2].
 
 The numerical experiments folder contains codes to replicate the experiments contained in the paper :
  1. Figure5_1: Synthetic matrix completion example with ReLU sampling,
