@@ -1,7 +1,7 @@
-# ReLU_NMD
- ReLU matrix decomposition is a relatively new nonlinear matrix decomposition (NMD) model, where, given a sparse non-negative matrix $X$, we aim at finding a low-rank approximation $\Theta$ such that $\max(0,\Theta) \approx X$. Specifically, one can compute a rank- $r$ decomposition of $X$ solving the Latent-ReLU-NMD model, that is 
+# Nonlinear matrix decomposition with the ReLU function (ReLU-NMD)
+ReLU-NMD is a relatively new nonlinear matrix decomposition model, where, given a sparse non-negative matrix $X$, we aim at finding a low-rank approximation $\Theta$ such that $\max(0,\Theta) \approx X$. Specifically, one can compute a rank- $r$ decomposition of $X$ solving the Latent-ReLU-NMD model, that is 
  
-    $$ \lVert Z - \Theta \rVert_F^2 \ \mbox{such that} \ \max(0,Z)=X,  \ \mbox{and} \  rank(\Theta) \leq r,$$    
+    $$ \| Z - \Theta \|_F^2 \ \text{such that} \ \max(0,Z)=X,  \ \text{and} \  \text{rank}(\Theta) \leq r,$$    
 
 or the Three-block-ReLU-NMD (3B-ReLU-NMD) formulation:
 
