@@ -2,13 +2,13 @@
 
 ReLU-NMD is a relatively new nonlinear matrix decomposition model, where, given a sparse non-negative matrix $X$, we aim at finding a low-rank approximation $\Theta$ such that $\max(0,\Theta) \approx X$. One can compute such a rank- $r$ decomposition of $X$ by solving the Latent-ReLU-NMD model 
  
-    $ \| Z - \Theta \|_F^2 \ \text{such that} \ \max(0,Z)=X,  \ \text{and} \  \text{rank}(\Theta) \leq r,$    
+$$ \lVert Z - \Theta \rVert_F^2 \quad \text{such that} \quad \max(0,Z)=X   \text{ and }   \text{rank}(\Theta) \leq r,$$    
 
 or the Three-block-ReLU-NMD (3B-ReLU-NMD) formulation:
 
-         $$ \| Z - WH \|_F^2 \ \text{such that} \ \max(0,Z)=X.$$ 
+$$ \lVert Z - WH \rVert_F^2 \quad \text{such that} \quad \max(0,Z)=X.$$ 
          
-ReLU-NMD finds application in entry-dependent matrix completion [1], in the recovery of Euclidean distance matrices, in the compression of sparse data [2], and in manifold learning [3]. This repository contains state-of-the-art algorithms for computing ReLU-NMDs and examples of test problems. It allows one to reproduce the results presented in our paper [4]. 
+ReLU-NMD finds application in entry-dependent matrix completion [1], in the recovery of Euclidean distance matrices[4], in the compression of sparse data [2], and in manifold learning [3]. This repository contains state-of-the-art algorithms for computing ReLU-NMDs and examples of test problems. It allows one to reproduce the results presented in our paper [4]. 
 
 Here is the list of implemented algorithms:
  1. Naive-NMD: alternate optimization scheme that computes at each iteration one global optima of the subproblem for $Z$ and $\Theta$ in the Latent-ReLU-NMD formulation [3],
@@ -43,4 +43,4 @@ Other folders description:
  [3] L. K. Saul, “A geometrical connection between sparse and low-rank matrices and its application to manifold learning,”
  Transactions on Machine Learning Research, 2022.
 
- [4] 
+ [4]  M. Porcelli, N. Gillis, and G. Seraghiti, "An extrapolated and provably convergent algorithm or nonlinear matrix decomposition with the ReLU function", 2025.
