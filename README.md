@@ -33,7 +33,7 @@ Other folders description:
 
  References. 
  
- [1] H. Liu, P. Wang, L. Huang, Q. Qu, and L. Balzano, “Symmetric matrix completion with relu sampling,” arXiv
+ [1] H. Liu, P. Wang, L. Huang, Q. Qu, and L. Balzano, “Symmetric matrix completion with ReLU sampling,” arXiv
  preprint arXiv:2406.05822, 2024.
  
  [2] G. Seraghiti, A. Awari, A. Vandaele, M. Porcelli, and N. Gillis, “Accelerated algorithms for nonlinear matrix decom-
